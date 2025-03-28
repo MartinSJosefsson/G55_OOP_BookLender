@@ -10,7 +10,7 @@ public class App {
 
         System.out.println(person1.getPersonInformation());
         System.out.println(book1.getBookInformation());
-        pperson1.loanBook(book1);
+        person1.loanBook(book1);
         System.out.println(book1.getBookInformation());
 
         person1.returnBook(book1);
