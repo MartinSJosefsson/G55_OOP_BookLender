@@ -16,7 +16,7 @@ public class Person {
     }
 
     private int getNextId() {
-        return ++sequencer;
+        return sequencer++;
     }
 
     public void loanBook(Book book) {
